@@ -1,0 +1,13 @@
+.fact-btn:hover {
+  border: 1px solid rgb(66, 14, 99);
+  color: rgb(66, 14, 99);
+}
+
+.fact-btn {
+  color: white;
+  background: rgb(66, 14, 99);
+}
+
+.fact-text {
+  min-height: 50px;
+}

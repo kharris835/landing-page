@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainContent.css";
+import RandomFacts from "./FactGenerator";
 
 export default function MainContent() {
   return (
@@ -34,6 +35,7 @@ export default function MainContent() {
           take turns caring for their eggs and chicks.
         </li>
       </ul>
+      <RandomFacts />
     </div>
   );
 }
