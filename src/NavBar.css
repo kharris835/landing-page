@@ -1,3 +1,31 @@
 nav {
   background: rgb(213, 193, 222);
 }
+
+.support-link {
+  color: black;
+  text-decoration: none;
+}
+
+.support-link:hover {
+  color: rgb(99, 14, 99);
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  .full-text {
+    display: inline-block;
+  }
+  .short-text {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+}
